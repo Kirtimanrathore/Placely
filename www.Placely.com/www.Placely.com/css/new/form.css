@@ -1,0 +1,84 @@
+#popup1 {top:100px!important;}
+#popup2 {top:100px!important;}
+#popup3 {top:100px!important;}
+#popup4 {top:100px!important;}
+
+/*--Login Starts--*/
+.login .main-login {margin: 0 auto; max-width: 650px; padding:0px 0px 20px 0px; background-color: #fff;}
+.login form .field-1 input, .login form .field-6 input, .login form .field-1 select {width:100%; color:#999; border:1px solid #ccc; font-family:"Roboto-Regular"; font-size:1.2em; padding:12px 10px; margin:0px 0px 10px 0px; border-radius:5px;}
+.login form .field-1 input:focus, .login form .field-1 select:focus {border:1px solid #005d7e; outline:none;}
+
+.login form .field-1 textarea {width:100%; resize:none; height:100px; color:#999; border:1px solid #ccc; font-family:"Roboto-Regular"; font-size:1.2em; padding:12px 10px; margin:0px 0px 10px 0px; border-radius:5px;}
+.login form .field-1 textarea:focus {border:1px solid #005d7e; outline:none;}
+
+.login form .field-3 {border:1px solid #ddd; margin:0 0 10px 0; border-radius:5px; display:inline-block; width:100%;}
+.login form .field-3 ul {margin:0; padding:0;}
+.login form .field-3 ul li {list-style-type:none; padding:10px; width:49%; float:left;}
+.login form .field-3 ul li:first-child {width:100%; text-transform:uppercase; color:#f27f7a; text-align:center; font-size:1.3em; border-bottom:1px solid #ddd; padding:10px;}
+.login form .field-3 ul li:last-child {text-align:right;}
+.login form .field-3 ul li span{font-family:"Rupee";}
+
+.login form .field-5 {margin:0 0 0 0; width:50%; float:left;}
+.login form .field-5 p {line-height:23px;}
+.login form .field-5 ul {margin:0; padding:0;}
+.login form .field-5 ul li {list-style-type:none; display:inline-block; margin:0 10px 0 0;}
+.login form .field-5 ul li label {font-family:"Roboto-Light"; margin:0 0 0 5px; font-size:1em;}
+
+.login form .field-6 {margin:0 0 0 0; width:50%; float:left;}
+
+.login form .field-7 {margin:0 0 10px 0; display:inline-block; width:100%;}
+.login form .field-7 a:first-child {float:left;}
+.login form .field-7 a:last-child {float:right;}
+
+.login form .field-4 {position:relative;}
+.login form .field-4 a {width:100%; color:blue; border:1px solid #fff; font-family:"Roboto-Regular"; font-size:1.2em; padding:12px 10px; margin:0px 0px 10px 0px; border-radius:5px; display:inline-block;}
+.login form .field-4 .input-fields {display:inline-block; width:100%; position:absolute; display:none; top:0;}
+.login form .field-4 .input-fields .coupon-code {width:75%; float:left; color:#999; border:1px solid #ccc; border-right:0px; font-family:"Roboto-Regular"; font-size:1.2em; padding:12px 10px; margin:0px 0px 10px 0px; border-radius:5px 0px 0px 5px;}
+
+.login form .field-4 .input-fields .btn {width:25%!important; border-bottom:0!important; float:left; background:#f27f7a; color:#fff; font-family:"Roboto-Regular"; font-size:1.4em; text-shadow:none; border:none; padding:11px 20px; width:100%; border-bottom:3px solid #c95550; text-transform:uppercase;}
+.login form .field-4 .input-fields .btn:hover {background:#000;}
+
+.login form .field-2 input {background:#f27f7a; color:#fff; font-family:"Roboto-Regular"; font-size:1.4em; text-shadow:none; border:none; padding:8px 20px; width:100%; border-bottom:3px solid #c95550; text-transform:uppercase;}
+.login form .field-2 input:hover {background:#38bda0; border-bottom:3px solid #1f977d;}
+
+.new-user {text-align:center;}
+.new-user ul {margin:20px 0 10px 0; padding:0 0 0 0;}
+.new-user ul li {list-style-type:none; display:inline-block;}
+.new-user ul li a {color:#666; font-size:1.2em;}
+.new-user ul li a:hover {color:#f27f7a;}
+.new-user ul li:first-child:after {content:"|"; margin:0 20px;}
+
+.login .signin {width:100%; text-align:center;}
+.login h2 {color:#333; display:inline-block; font-size:1.2em; position:relative; text-transform:uppercase;}
+.login h2::before {background:#333; content:""; height:1px; left:-70px; position:absolute; top:8px; width:60px;}
+.login h2::after {background:#333; content:""; height:1px; left:auto; position:absolute; right:-70px; top:8px; width:60px;}
+
+.login .signin .signin-inner {margin:20px 0 0px 0; width:100%; display:inline-block;}
+.login .signin .signin-inner .facebook {background:#4867aa; color:#ffffff; width:100%; border-radius:5px; text-shadow:none; border:none; text-transform:uppercase;}
+.login .signin .signin-inner .google {background:#d95232; color:#ffffff; width:100%; border-radius:5px; text-shadow:none; border:none; text-transform:uppercase;}
+/*--Login Ends--*/
+
+/*--Responsive Starts--*/
+@media only screen and (max-width:768px)
+{
+	.login {margin:2em 0 0em 0;}
+	.main-login {width:100%!important; max-width: 100%!important; margin:0 auto; padding:20px!important; display:inline-block;}
+	.login .signin .signin-inner .facebook {margin:0 0 10px 0;}
+}
+
+@media only screen and (max-width: 736px)
+{
+	.login {margin:2em 0 5em 0;}
+	.main-login {width:100%!important; max-width: 100%!important; margin:0 auto; padding:20px!important; display:inline-block;}
+	.login .signin .signin-inner .facebook {margin:0 0 10px 0;}
+}
+
+@media only screen and (max-width: 667px)
+{
+	.login {margin:2em 0 5em 0;}
+	.main-login {width:100%; max-width: 600px; margin:0 auto; padding:20px!important; display:inline-block;}
+	.login .signin .signin-inner .facebook {margin:0 0 10px 0;}
+	.new-user ul li {width:100%!important; display:block!important;}
+	.new-user ul li:after {content:none!important;}
+}
+/*--Responsive Ends--*/

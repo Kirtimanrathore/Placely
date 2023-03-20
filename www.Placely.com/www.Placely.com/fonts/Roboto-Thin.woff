@@ -1,0 +1,13 @@
+Connection could not be established.<br />Array
+(
+    [0] => Array
+        (
+            [0] => 28000
+            [SQLSTATE] => 28000
+            [1] => 18456
+            [code] => 18456
+            [2] => [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+            [message] => [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Login failed for user 'sa'.
+        )
+
+)

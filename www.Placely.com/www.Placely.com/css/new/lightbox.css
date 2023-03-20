@@ -1,0 +1,66 @@
+.popup-header {width:100%; padding:20px 0 20px 20px; border-bottom:1px solid #ddd; display:inline-block;}
+.popup-header h3 {font-size:1.6em; margin:0 0 0 0; padding:0 0 0 0;}
+.popup-header h3 span {display:block;}
+.back-btn {position: absolute; z-index:99; top:22px; right:20px;}
+
+.modal-box {
+  display: none;
+  position: fixed;
+  z-index:9999999;
+  width: 98%;
+  background: white;
+  border-bottom: 1px solid #aaa;
+  border-radius: 4px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-clip: padding-box;
+}
+
+.modal-box .modal-body { padding: 2em 1.5em; }
+
+.modal-overlay {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position:fixed;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  width: 100%;
+  height:100vh;
+  background:rgba(0, 0, 0, 0.9) !important;
+}
+
+a.close {
+  line-height: 1;
+  font-size: 2em;
+  position: absolute;
+  z-index:99;
+  top:16px;
+  right:20px;
+  text-decoration: none;
+  opacity:1;
+  text-shadow:none;
+  color:#222;
+}
+
+a.close:hover {
+  color: #222;
+  opacity:1;
+  text-shadow:none;
+}
+
+@media (min-width: 1440px) {
+  .modal-box { width:25%;}
+}
+
+@media (max-width: 1439px) {
+  .modal-box { width:40%;}
+}
+
+@media (max-width: 1090px) {
+  .modal-box { width:50%;}
+}
+
+@media (max-width: 871px) {
+  .modal-box { width:60%;}
+}
